@@ -1,0 +1,119 @@
+h2{
+    font-family:Comic Sans Ms;
+
+
+
+
+}
+body {
+    background-image: url("../background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Comic Sans Ms;
+}
+
+.floatr {
+    text-align: center;
+}
+
+.nav {
+    opacity: 0.5;
+  }
+  
+  .nav:hover {
+    opacity: 1.0;
+  }
+  
+  .navbtn {
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    color: white;
+  }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  max-width: 100%;
+}
+header,
+nav,
+article,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+div {
+  width: 100%;
+  word-wrap: break-word;
+}
+header,
+nav,
+main,
+article,
+section,
+footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  position: relative;
+}
+
+header {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+  }
+  main,
+  section,
+    footer {
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+  }
+nav[am-layout][am-layout~="horizontal"] a {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 8.3333%;
+        -ms-flex: 1 8.3333%;
+            flex: 1 8.3333%;
+  }
+
+  .button{ 
+    font-size: 25px;
+    font-family:courier;
+    background:#f00000;
+    color:#ffffff; 
+    padding: 15px 20px;
+    border: 2px solid #00000f;
+    border-radius: 8px;
+     }
+   .button:hover {
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+   }
+
+   .playjumpy {
+    float: right;
+   }
+
+   .playttt {
+    float: left;
+   }
+
+   .gameimg:hover {
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+   }
