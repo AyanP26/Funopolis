@@ -5,12 +5,14 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-image: linear-gradient(#e7a300, #f0c200, #f2db00, #fff060, #f9ffa1);
+
+body {
+    background-image: url("../Paint/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Comic Sans Ms;
+    padding: 20px, 30px;
   }
 
 .container {

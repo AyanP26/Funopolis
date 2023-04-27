@@ -1,31 +1,11 @@
-h2{
-    font-family:Comic Sans Ms;
-
-
-
-
-}
 body {
       background-image: url("background.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
       font-family: Comic Sans Ms;
+      padding: 20px, 30px;
   }
-
-.floatl {
-    float: left;
-}
-
-.floatr {
-    float: right;
-}
-
-.floatc {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .center {
     text-align: center;
@@ -68,7 +48,7 @@ body {
   padding: 16px;
   font-size: 16px;
   border: none;
-  font-weight: bolder;
+  border-radius: 20px;
 }
 
 .dropdown {
@@ -109,23 +89,27 @@ body {
 }
 
 .navbtn {
+  /*background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);*/
   background-color: red;
+  border-radius: 20px;
   padding: 16px;
   font-size: 16px;
   border: none;
-  border-radius: 20px;
+  font-weight: 600;
   color: white;
-  font-weight: bolder;
-  margin: 20px 30px;
+  margin: 20px 50px;
+  min-width: 150px;
 }
 
 .navimg {
   border-radius: 20px;
+  width: 384px;
+  height: 216px;
 }
 
 .navimg:hover {
-  box-shadow: rgba(0, 0, 0, 0.3);
-}
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+ }
 
 /**
  * ambient - v1.3.5 - 2015-04-03

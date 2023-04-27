@@ -5,12 +5,14 @@ h2{
 
 
 }
+
 body {
-    background-image: url("../background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Comic Sans Ms;
+  background-image: url("../background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Comic Sans Ms;
+  padding: 20px, 30px;
 }
 
 .floatr {
@@ -25,23 +27,37 @@ body {
     opacity: 1.0;
   }
   
-.navbtn {
-  background-color: red;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  font-weight: bolder;
-  margin: 20px 30px;
-}
+  .navbtn {
+    /*background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);*/
+    background-color: red;
+    border-radius: 20px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    margin: 20px 50px;
+    min-width: 150px;
+  }
+  
+  .navimg {
+    border-radius: 20px;
+    width: 384px;
+    height: 216px;
+  }
+  
+  .navimg:hover {
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+   }
 
-.navimg {
-  border-radius: 20px;
+   .explore {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: auto;
 }
-
-.navimg:hover {
-  box-shadow: rgba(0, 0, 0, 0.3);
+   .rainbowtext {
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
 }
 
 *,
@@ -118,7 +134,7 @@ nav[am-layout][am-layout~="horizontal"] a {
    }
 
    .playjumpy {
-    float: right;
+    float: left;
    }
 
    .playttt {

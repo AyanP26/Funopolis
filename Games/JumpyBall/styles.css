@@ -5,10 +5,13 @@
 }
 
 body {
-    margin: 0;
-    overflow: hidden;
-    background-color: gold;
-}
+    background-image: url("../JumpyBall/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Comic Sans Ms;
+    padding: 20px, 30px;
+  }
 
 .title {
     z-index: 10;
