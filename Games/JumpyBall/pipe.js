@@ -3,7 +3,7 @@
 const HOLE_HEIGHT = 200
 const PIPE_WIDTH = 120
 const PIPE_INTERVAL = 1500
-const PIPE_SPEED = 0.43
+const PIPE_SPEED = 0.5
 let pipes = []
 let timeSinceLastPipe
 let passedPipeCount
@@ -12,7 +12,7 @@ export function setupPipes() {
     document.documentElement.style.setProperty("--pipe-width", PIPE_WIDTH)
     document.documentElement.style.setProperty("--hole-height", HOLE_HEIGHT)
     pipes.forEach(pipe => pipe.remove())
-    timeSinceLastPipe = PIPE_INTERVAL
+    timeSinceLastPipe = PIPE_INTERVAL - 2
     passedPipeCount = 0
 }
 

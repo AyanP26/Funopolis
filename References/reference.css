@@ -45,17 +45,18 @@ body {
 }
 
 .nav {
-  opacity: 0.5;
+  opacity: 1.0;
 }
 
 .nav:hover {
-  opacity: 1.0;
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+  background-color: red;
 }
 
 .navbtn {
   /*background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);*/
-  background-color: red;
-  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0.65);
+  border-radius: 10px;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -67,12 +68,16 @@ body {
 
 .navimg {
   border-radius: 20px;
-  width: 384px;
+  width: 300px;
   height: 216px;
 }
 
 .navimg:hover {
   box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+ }
+
+ .references{
+  padding-left: 10px;
  }
 /**
  * ambient - v1.3.5 - 2015-04-03

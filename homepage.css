@@ -30,6 +30,7 @@ body {
 .showtimes {
   text-decoration: underline;
   font-size: 25px;
+  padding-left: 10px;
 }
 
 .ratings {
@@ -41,6 +42,7 @@ body {
   text-decoration: underline;
   font-size: 25px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .dropbtn {
@@ -54,6 +56,7 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  padding-left: 10px;
 }
 
 .dropdown-content {
@@ -81,17 +84,18 @@ body {
 }
 
 .nav {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .nav:hover {
-  opacity: 1.0;
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+  background-color: red;
 }
 
 .navbtn {
   /*background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);*/
-  background-color: red;
-  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0.65);
+  border-radius: 10px;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -99,11 +103,12 @@ body {
   color: white;
   margin: 20px 50px;
   min-width: 150px;
+  cursor: pointer;
 }
 
 .navimg {
   border-radius: 20px;
-  width: 384px;
+  width: 300px;
   height: 216px;
 }
 
@@ -111,6 +116,35 @@ body {
   box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
  }
 
+ .funimg {
+  border-radius: 20px;
+  width: 800px;
+  height: 500px;
+  margin: none;
+}
+
+.funimg:hover {
+  cursor: pointer;
+}
+
+.aboutText {
+  position: relative;
+  margin-top: -50px;
+  padding: 10px;
+}
+
+.rateComments {
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.mainSection {
+  margin-top: 27px;
+}
+
+.showTheme:hover {
+  cursor: pointer;
+}
 /**
  * ambient - v1.3.5 - 2015-04-03
  * https://ionlyseespots.github.io/ambient-design/index.html

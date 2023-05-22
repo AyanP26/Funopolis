@@ -4,7 +4,7 @@
     <title>Funopolis Pals</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="characters.css">
-    <h1><a href="../index.html"><img src="../home.png" alt="Show Name"></a></h1>  
+    <h1><a href="../index.html"><img src="../home.png" alt="Show Name" title="Back to Home"></a></h1>  
     <h2 class="explore"><span class="rainbowtext">Funopolis</span></h2>
     <nav am-layout="horizontal">
       <a href="../Drawing/draw.html"><img  class="floatr navimg" src="../Drawing/paint.jpg" alt="Drawing"><button class="nav navbtn">Creative Place</button></a>
@@ -15,8 +15,30 @@
 </head>
 <body>
     <h2>Meet Funopolis Pals</h2>
+    <hr class="sectionLine">
     <main>
-        <article>
+      <div class="content">
+        Watch the Funopolis Theme Song <i class="fa fa-play-circle" aria-hidden="true"> &nbsp;</i>
+
+      <button onclick="playVid()" type="button" class="themeButton">Play Video</button>
+      <button onclick="pauseVid()" type="button" class="themeButton">Pause Video</button><br> 
+      
+      <video id="myVideo" width="320" height="176">
+        <source src="ThemeSongVideo.mp4" type="video/mp4">       
+      </video>
+      <script> 
+        var vid = document.getElementById("myVideo"); 
+        
+        function playVid() { 
+          vid.play(); 
+        } 
+        
+        function pauseVid() { 
+          vid.pause(); 
+        } 
+        </script> 
+      </div>
+      <article>
           <aside> 
               <article>
                 <h2>Aryan</h2>
@@ -29,14 +51,14 @@
                 He is an 'action' boy who is always on the go. 
                 Aryan's passions are basketball and piano. 
                 He plays travel basketball for his school team. He is captain-like and can jump as high as the moon. 
-                Aryan cares for his friends very much. He would do anything to cheer his friends, and help them to find the happy side in everything. 
-                He is a jolly good fellow who is loved by friends, family, and people around him.
+                Aryan cares for his friends very much. He would do anything to cheer his friends. help them to find the happy side in everything. 
+                He is a jolly good fellow who is loved by friends, family and people around him.
                 Aryan's one of favorite activities is to create animations. 
                 Check out his latest animation below:
                 <br>
                 <br>
                 <iframe width="400" height="300" src="https://www.youtube.com/embed/eHD-v6z9kx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-              </p>
+
           </section>
         </article>
       </main>
@@ -50,8 +72,8 @@
               </article>
           </aside>
           <section>
-            <p class="bio"><br><br><br>A 8-year-old sweet little girl who is loved by everyone. She stands for her friendship with Aryan and Connnor. 
-              She likes to be in every place around Aryan and Connnor. Becky has a thing for adventures. She imagines herself to be a 'Wonder girl' and loves to put on different costumes and hairstyles to match her imaginative and adventurous mind. 
+            <p class="bio"><br><br><br>A 8-year-old sweet little girl who is loved by everyone. She stands for her friendship with Aryan and Connner. 
+              She likes to be in every place around Aryan and Connner. Becky has a thing for adventures. She imagines herself to be a 'Wonder girl' and loves to put on different costumes and hairstyles to match her imaginative and adventurous mind. 
               She always looks for an opportunity to go on an expedition. Usually through Becky's expeditions, the trio encounters the problem that needs to be solved.
             </p>
           </section>
@@ -81,7 +103,7 @@
         <br/>
         <nav am-layout="horizontal">
               <a href="../Files/files.html">Files</a><br><a href="../About/about.html">About Me</a><br><a href="../References/reference.html">References</a>
-        <p>Copyright &copy; 2023 Ayan Prasad All rights reserved.</p>
+        <p>&copy; 2023 Ayan Prasad All rights reserved.</p>
         </nav>
         </footer>
 </body>

@@ -16,17 +16,17 @@ body {
 }
 
 .nav {
-  opacity: 0.5;
-}
-
-.nav:hover {
   opacity: 1.0;
 }
 
+.nav:hover {
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+  background-color: red;
+}
 .navbtn {
   /*background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);*/
-  background-color: red;
-  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0.65);
+  border-radius: 10px;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -42,9 +42,10 @@ body {
   height: 216px;
 }
 
-.navimg:hover {
+.nav:hover {
   box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
- }
+  background-color: red;
+}
 
  .explore {
   text-align: center;
@@ -56,6 +57,13 @@ body {
   background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
 }
 
+.paint {
+  border: 2px solid black;
+}
+
+.paint:hover {
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+}
 
 *,
 *:before,
